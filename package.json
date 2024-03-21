@@ -1,0 +1,40 @@
+{
+  "name": "excepturiassumenda",
+  "version": "1.0.0",
+  "description": "Efficiently reads the last lines of a file, written in TypeScript for intellisense",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWunsch/excepturiassumenda.git"
+  },
+  "author": "JuniorDooley",
+  "keywords": [
+    "read",
+    "last",
+    "lines",
+    "asperiores",
+    "typescript",
+    "et"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
+    "all": "yarn build && yarn test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "ansi-colors-ts": "^0.0.1",
+    "faker": "^4.1.0",
+    "jest": "^26.2.2",
+    "read-last-lines": "^1.7.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "homepage": "https://github.com/MattWunsch/excepturiassumenda.git"
+}
